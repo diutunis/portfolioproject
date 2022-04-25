@@ -31,11 +31,11 @@ function toggleDrop() {
 
 function toggleDrop() {
     var dropdown = document.getElementById('dropdown');    
-    if((document.getElementById("dropdown").style.display) === "none") { // if its hiding then
+    if((document.getElementById("dropdown").style.display) === "none") { // if is menuBox displayed, hide it
       dropdown.style.display === "contents";
     }
     else { // if is menuBox hidden, display it
-      dropdown.style.display = "none";
+      dropdown.style.display = "flex";
     }
   }
   
