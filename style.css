@@ -2,6 +2,8 @@ body{
     background-color: black;
     color:silver;
     margin: 1 auto;
+    font-family: 'Roboto Mono', monospace;
+    align-content: center;
 }
 .mobilehead{
     background-color: darkslategrey;
@@ -24,7 +26,131 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/* 
 #dropdown {
+    
+} */
+
+#shown {
+    display: contents;
+}
+
+/* ul {
     display: none;
+} */
+
+#hid {
+ /* display: none; */
+}
+
+
+.mobilehead {
+  
+    background-image: url("banner.jpeg");
+    background-size: cover;
+    opacity: .5;
+    color: white;
+}
+
+
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    background-color: dimgrey
+    
+}
+
+.switch1 {
+    display:inline-flex
+}
+
+#onoff2 {
+    text-align: center;
+    color: red;
+}
+#onoff1 {
+    text-align: center;
+    color: greenyellow
+}
+.list1 {
+    list-style:none;
+}
+
+.projectItem1 {
+    display: none;
+    list-style:none;
+}
+
+.projectItem2 {
+    display: none;
+    list-style:none;
+}
+
+.projectItem3 {
+    display: none;
+    list-style:none;
+}
+
+.switch2 {
+    display:inline-flex;
+    justify-content: space-around;
+    
+}
+/*
+.switch3 {
+    display:inline-flex
+}
+
+.switch4 {
+    display:inline-flex
+    
+} */
+
+#onoff3{
+    text-align: center;
+    color: greenyellow;
+}
+#onoff4 {
+    text-align: center;
+    color: red
+}
+
+#onoff5{
+    text-align: center;
+    color: greenyellow;
+}
+#onoff6 {
+    text-align: center;
+    color: red
+}
+
+#onoff7{
+    text-align: center;
+    color: greenyellow;
+}
+#onoff8 {
+    text-align: center;
+    color: red
+}
+
+.projectImage1 {
+    display: block;
+    align-self: center;
+    width:50%; /* you can use % */
+    height: auto;
+}
+
+.projectImage2 {
+    display: block;
+    align-self: center;
+    width:50%; /* you can use % */
+    height: auto;
+}
+
+.projectImage3 {
+   display: block;
+    align-self: center;
+    width:50%; /* you can use % */
+    height: auto;
 }
