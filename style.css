@@ -20,17 +20,17 @@ body{
         /* background-color: aqua; */
         display:grid;
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 2fr 1fr;
     }
     .projectsSide {
-        display: grid;
-        grid-column: 2 / 2;
-        grid-row: 1;
+    
+        grid-column: 2;
+        grid-template-rows: 1;
         
         /* flex-direction: column; */
-        background-color: dimgrey
+        background-color: rgb(32,32,32)
         
     }
+   
 }
 /* 
 .flexbox {
@@ -52,7 +52,7 @@ body{
 } */
 
 #hid {
- /* display: none; */
+ display: none;
 }
 
 
@@ -100,7 +100,7 @@ body{
 }
 
 .switch2 {
-    display:inline-flex;
+    display:flex;
     justify-content: space-around;
     
 }
