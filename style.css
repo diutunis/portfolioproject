@@ -19,7 +19,7 @@ body{
     body {
         /* background-color: aqua; */
         display:grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     }
     .projectsSide {
     
@@ -69,7 +69,10 @@ body{
 
 
 .switch1 {
-    display:inline-flex
+    display:flex;
+    text-align: center;
+    margin: auto;
+    flex: auto;
 }
 
 #onoff2 {
@@ -80,23 +83,29 @@ body{
     text-align: center;
     color: greenyellow
 }
+
 .list1 {
     list-style:none;
+    text-align: center;
+    
 }
 
 .projectItem1 {
     display: none;
+    text-align: center;
     list-style:none;
 }
 
 .projectItem2 {
     display: none;
+    text-align: center;
     list-style:none;
 }
 
 .projectItem3 {
     display: none;
     list-style:none;
+    text-align: center;
 }
 
 .switch2 {
@@ -144,20 +153,29 @@ body{
 .projectImage1 {
     display: block;
     align-self: center;
-    width:50%; /* you can use % */
+    width:50%; 
     height: auto;
+    margin: auto;
 }
 
 .projectImage2 {
     display: block;
     align-self: center;
-    width:50%; /* you can use % */
+    width:50%; 
     height: auto;
+    margin: auto;
 }
 
 .projectImage3 {
    display: block;
     align-self: center;
-    width:50%; /* you can use % */
+    width:50%; 
     height: auto;
+    margin: auto;
+}
+.button {
+    font-size: large;
+}
+.projectIntro{
+    text-align: center;
 }
