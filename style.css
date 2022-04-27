@@ -12,6 +12,7 @@ body{
 
 @media screen and (min-width: 576px) {
     body {
+        font-size: larger;
         /* background-color: red; */
     }
 }
@@ -87,6 +88,9 @@ body{
 .list1 {
     list-style:none;
     text-align: center;
+    margin: auto;
+    margin-right: 10%;
+    
     
 }
 
@@ -94,18 +98,24 @@ body{
     display: none;
     text-align: center;
     list-style:none;
+    margin: auto;
+    margin-right: 10%;
 }
 
 .projectItem2 {
     display: none;
     text-align: center;
     list-style:none;
+    margin: auto;
+    margin-right: 10%;
 }
 
 .projectItem3 {
     display: none;
     list-style:none;
     text-align: center;
+    margin: auto;
+    margin-right: 10%;
 }
 
 .switch2 {
@@ -153,29 +163,59 @@ body{
 .projectImage1 {
     display: block;
     align-self: center;
-    width:50%; 
+    width:65%; 
     height: auto;
     margin: auto;
+    margin-bottom: 10%;
+
 }
 
 .projectImage2 {
     display: block;
     align-self: center;
-    width:50%; 
+    width:65%; 
     height: auto;
     margin: auto;
+    margin-bottom: 10%;
+
 }
 
 .projectImage3 {
    display: block;
     align-self: center;
-    width:50%; 
+    width:65%; 
     height: auto;
     margin: auto;
+    margin-bottom: 10%;
 }
 .button {
     font-size: large;
 }
 .projectIntro{
     text-align: center;
+   
+    margin: 10%
+}
+#name {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#email {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#topic {
+    display: block;
+    margin: auto;
+}
+
+.label {
+    text-align: center;
+    margin-left: 100px;
+}
+.submit {
+    display: block;
+    margin: auto;
 }
