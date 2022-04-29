@@ -71,9 +71,11 @@ body{
 
 .switch1 {
     display:flex;
+    justify-content: center;
     text-align: center;
     margin: auto;
     flex: auto;
+    font-size: x-large;
 }
 
 #onoff2 {
