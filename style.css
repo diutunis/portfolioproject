@@ -26,8 +26,6 @@ body{
     
         grid-column: 2;
         grid-template-rows: 1;
-        
-        /* flex-direction: column; */
         background-color: rgb(32,32,32)
         
     }
