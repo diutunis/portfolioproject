@@ -103,6 +103,7 @@ body{
     list-style:none;
     margin: auto;
     margin-right: 10%;
+    color: azure;
 }
 
 .projectItem2 {
@@ -111,6 +112,7 @@ body{
     list-style:none;
     margin: auto;
     margin-right: 10%;
+    color: azure;
 }
 
 .projectItem3 {
@@ -119,6 +121,7 @@ body{
     text-align: center;
     margin: auto;
     margin-right: 10%;
+    color: azure;
 }
 
 .switch2 {
