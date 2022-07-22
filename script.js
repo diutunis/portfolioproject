@@ -111,7 +111,7 @@ window.addEventListener("load", function() {
       body: data,
     })
     .then(() => {
-      alert("Success!");
+      alert("contact recieved!");
     })
   });
 });
