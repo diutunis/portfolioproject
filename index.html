@@ -77,29 +77,13 @@
       <h2 class="mobilehead">Contact Me</h2>
       <div class="contact">
         <form 
-        method="POST"
-        action="https://script.google.com/macros/s/AKfycbzW1rS-MLSbH5qoK2i_SmfBdiSrWkksQMq-lIXXD8RDHVzB8ht30OJ_iU1NeHaAjKuOgQ/exec">
-          <label class="label" for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Full Name/Company"
-          />
-
-          <label class="label" for="email">E-mail Address</label>
-          <input type="text" id="email" name="E-mail" placeholder="e-mail" />
-
-          <label class="label" for="topic">Topic</label>
-          <textarea
-            id="topic"
-            name="topic"
-            placeholder="whats on your mind?"
-            style="height: 200px"
-          ></textarea>
-
-          <input class="submit" type="submit" value="Submit" />
-        </form>
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbzW1rS-MLSbH5qoK2i_SmfBdiSrWkksQMq-lIXXD8RDHVzB8ht30OJ_iU1NeHaAjKuOgQ/exec"
+>
+  <input name="Email" type="email" placeholder="Email" required>
+  <input name="Name" type="text" placeholder="Name" required>
+  <button type="submit">Send</button>
+</form>
       </div>
     </div>
   </body>
